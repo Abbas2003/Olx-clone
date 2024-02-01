@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav-bar{
+     height: 120px;
+     background-color: #f7f8f8;
+}
+
+.image-box {
+    display: inline;
+    margin-left: 10px;
+}
+.inputbox {
+    display: flex;
+    width: 300px;
+    align-items: center;
+    height: 45px;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-left: 20px ;
+   background-color: white;
+}
+.inputbox input{
+    flex: 1;
+    border: 0;
+    outline: 0;
+    background-color: transparent;
+    padding-left: 15px;
+}
+
+.nav-lower {
+    display: flex;
+    margin-top: 20px;
+}
+.inputbox2 {
+    display: flex;
+    width: 500px;
+    align-items: center;
+    height: 45px;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-left: 20px ;
+   background-color: white;
+}
+.inputbox2 input{
+    flex: 1;
+    border: 0;
+    outline: 0;
+    background-color: transparent;
+    padding-left: 15px;
+}
+.login-button h5{
+    border-bottom: 2px solid black;   
+    font-weight: bold;
+    margin: 12px 0 0 32px;
+    font-size: 1rem;
+    line-height: 23px;
+}
+.login-button h5:hover{
+    border-bottom: 2px solid #f7f8f8;   
+    cursor: pointer;
+}
+.button1 {
+    border-bottom: 0.3rem solid #3a77ff;
+    border-top: 0.3rem solid #3a77ff;
+    border-left: 0.3rem solid #ffce32;
+    border-right: 0.3rem solid #23e5db;
+    margin-left: 40px;
+    width: 85px;
+    border-radius: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+}
+.button1 img {
+    margin-right: 3px;
+}
+.button1 span {
+   font-size: 0.88rem;
+   font-weight: bold;
+}
+.button1:hover {
+    cursor: pointer;
+}
+.txt-1:hover {
+    color: #3a77ff;
+    cursor: pointer;
+}
+.text-gray {
+    color: #002f34;
+}
+.bar {
+    width: 93%;
+    height: 1.2rem;
+    background-color: #f2f4f5;
+    margin: 3.2rem 0;
+}
+.banner {
+    height: 100%;
+    width: 27%;
+}
+.banner-2 {
+    height: 70%;
+    width: 20%;
+}
+.light {
+    color: rgba(0,47,52,.64);
+    font-size: 0.92rem;
+}
+.sub-footer {
+    padding: 1.4rem 3rem;
+    background-color: #002f34;
+    color: #fff;
+    text-align: right;
+}
+.txt {
+    font-size: 0.8rem;
+}
+ul li {
+    text-decoration: none;
+}
+a {
+    text-decoration: none;
+}
